@@ -15,7 +15,7 @@ class LoginBloc extends Cubit<LoginState> {
   Future<void> login({required String username, required String password}) async {
     emit(state.copyWith(isLoading: true, hasError: false));
 
-    final Response result = await loginRepository.login(username: 'kminchelle', password: '0lelplR');
+    final Response result = await loginRepository.login(username: username, password: password);
 
     if (result.statusCode == 200) {
       //valid credentials

@@ -10,13 +10,22 @@ It connects to the public api [https://dummyjson.com/docs/products]
 It demonstrates adding a product via POST but it does not save to the dummyjson server, it only imitates the response
 of a successfuly posting the data via POST api.
 
-Features:
+##Features:
 
 Login
-
 Fetch from api[dummyjson.com] and display the data
-
 Add a product via API and when the POST succeed, save the data locally using HIVE and display
+
+##Credentials
+Use any of the following credentials to login or choose any account from this site [https://dummyjson.com/users]
+"username": atuny0,
+"password": 9uQFF1Lh,
+
+"username": "hbingley1",
+"password": "CQutx25i8r",
+
+"username": "rshawe2",
+"password": "OWsTbMUgFc",
 
 
 ## How to compile and run the app
